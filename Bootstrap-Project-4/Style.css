@@ -1,0 +1,187 @@
+--root{
+    --primary-color:#289BDE;
+    --heading1:#4A4A4A;
+    --heading2:#1D1D1D;
+    --paragraph:#777777;
+    --third_Section_background:#F4FAFD;
+    --dark-6:#E8E8E8;
+    --dark-5:#D2D2D2;
+}
+
+
+
+.main{
+ width:1600px;
+ height:auto;
+ font-family: 'Poppins', sans-serif;
+}
+.carousel-item{
+    background-size: cover;
+    --webkit-background-size:cover;
+}
+.overlay img{
+   border-radius: 15px; 
+}
+
+.overlay::before{
+    position:absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#000;
+    opacity:0.7;
+    border-radius: 15px;
+
+}
+.carousel-caption{
+    bottom: 100px;
+    padding-left:100px ;
+    padding-right:100px ;
+
+}
+.carousel-caption h1{
+    font-size: 65px;
+    font-weight:600;
+    color:#ffffff;
+}
+.carousel-caption p{
+    font-size: 18px;
+    font-weight:400;
+    color:#F4F4F4;
+    }
+.slider-btn{
+    margin-top: 20px;
+    background-color:var(--primary-color);
+    border-radius: 30px;
+    width:150px;
+    height:56px; 
+    margin-left:300px;
+    }
+ .slider-btn .btn{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+ }  
+ /* cards */
+ .second-part h1{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.second-part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+} 
+.card-title{
+    font-size:25px;
+    font-weight:600;
+}
+.card-text{
+font-size:16px;
+font-weight: 400;
+color:#777777;
+}
+.card-text-taka{
+ color: #289BDE;
+ font-size:18px;
+font-weight: 600;
+}
+.see_button{
+    margin-left:32rem;
+    color:#FFFFFF;
+    background-color: #289BDE;
+    width:208px;
+    height:56px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.card-title-1{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.Read_button{
+    color:#FFFFFF;
+    background-color: #289BDE;
+    width:175px;
+    height:56px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+    margin-top: 20px;
+}
+.kobita{
+    margin-top: 100px;
+}
+.ky{
+    margin-left: 80px;
+
+}
+.ps{
+    margin-left: 70px;
+}
+/* colorFull */
+.ready{
+ font-size: 45px;
+ font-weight: 600;
+ color:#ffffff;
+}
+.ready2{
+    font-size: 16px;
+    font-weight: 400;
+    color:#F4F4F4;
+   }
+   .ma{
+    background-color: #289BDE;
+    padding-top:5%;
+    padding-bottom: 5%;
+
+   }
+   /* SuccessFul Student */
+   .Successful{font-size: 45px;
+   font-weight: 600;}
+   .Success-er-ma{
+    margin-top: 10%;
+   }
+   /* Feedback */
+   .feedback-er-ma{
+    margin-top: 10%;
+    margin-bottom: 5%;
+   }
+   .feedback{
+    background-image:url(images/comma.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin-top: 2%;
+    margin-left: 2%;
+   }
+   .fa-solid{
+    color: orange;
+   }
+   .fa-regular{
+    color:rgb(246, 185, 74);
+   }
+   .end{
+    font-size: 16px;
+    font-weight: 400;
+    color:#E8E8E8;
+    margin:2px;
+    padding:4px;
+   }
+   .foot{
+    width:25px;
+    height: 25px;
+    color: #FFFFFF;
+    border-radius:100%;
+    background-color:#242424;
+    padding-top: 5px;
+    margin-left:5px;
+    margin-top:10px;
+   }
+   
+
